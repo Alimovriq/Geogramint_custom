@@ -24,9 +24,18 @@ Geogramint_custom - приложение для поиска пользоват�
 ```bash
 git clone https://github.com/Alimovriq/Geogramint_custom.git
 cd Geogramint_custom/
+py -m venv env
+py env/Scripts/activate
+py -m pip install --upgrade pip
 pip3 install -r requirements.txt
+```
 
-python3 geogramint.py --help # для CLI режима
+- [Установить актуальную версию клиента MongoDB](https://www.mongodb.com/try/download/community);
+- Создать файл в корне проекта Geogramint_custom/.env и указать параметры как в файле Geogramint_custom/.env_example;
+- Открыть приложение MongoDB.
+
+```bash
+py geogramint.py --help # для CLI режима
 ```
 
 ### Mac OS  ![macOS](https://img.shields.io/badge/Mac_OS-abbfc7?style=for-the-badge&logo=apple) и Linux ![Linux](https://img.shields.io/badge/Linux-ffffff?style=for-the-badge&logo=linux)
@@ -36,10 +45,18 @@ python3 geogramint.py --help # для CLI режима
 ```bash
 git clone https://github.com/Alimovriq/Geogramint_custom.git
 cd Geogramint_custom/
+python/python3 -m venv env
+source env/bin/activate
+python/python3 -m pip install --upgrade pip
 pip3 install -r requirements.txt
 
 python3 geogramint.py --help # для CLI режима
 ```
+
+### Все ОС
+1. [Установить актуальную версию клиента MongoDB](https://www.mongodb.com/try/download/community)
+2. Создать файл в корне проекта Geogramint_custom/.env и указать параметры как в файле Geogramint_custom/.env_example
+3. 
 
 ## 📡 Пример: CLI (терминал)
 
