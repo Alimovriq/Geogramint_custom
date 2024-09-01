@@ -1,4 +1,4 @@
-# **Geogramint_custom - OSINT инструмент для поиска пользоваталей и групп по геолокации в Telegram**
+# **Geogramint_custom - OSINT инструмент для поиска пользователей и групп по геолокации в Telegram**
 
 <p align="center">
 <img src="https://github.com/Alb-310/Geogramint/blob/master/appfiles/Geogramint.png" width="300"/>
