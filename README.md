@@ -30,9 +30,9 @@ py -m pip install --upgrade pip
 pip3 install -r requirements.txt
 ```
 
-- [Установить актуальную версию клиента MongoDB](https://www.mongodb.com/try/download/community);
-- Создать файл в корне проекта Geogramint_custom/.env и указать параметры как в файле Geogramint_custom/.env_example;
-- Открыть приложение MongoDB.
++ [Установить актуальную версию клиента MongoDB](https://www.mongodb.com/try/download/community);
++ Создать файл в корне проекта Geogramint_custom/.env и указать параметры как в файле Geogramint_custom/.env_example;
++ Открыть приложение MongoDB.
 
 ```bash
 py geogramint.py --help # для CLI режима
@@ -49,14 +49,15 @@ python/python3 -m venv env
 source env/bin/activate
 python/python3 -m pip install --upgrade pip
 pip3 install -r requirements.txt
-
-python3 geogramint.py --help # для CLI режима
 ```
 
-### Все ОС
-1. [Установить актуальную версию клиента MongoDB](https://www.mongodb.com/try/download/community)
-2. Создать файл в корне проекта Geogramint_custom/.env и указать параметры как в файле Geogramint_custom/.env_example
-3. 
++ [Установить актуальную версию клиента MongoDB](https://www.mongodb.com/try/download/community);
++ Создать файл в корне проекта Geogramint_custom/.env и указать параметры как в файле Geogramint_custom/.env_example;
++ Открыть приложение MongoDB.
+
+```bash
+python3 geogramint.py --help # для CLI режима
+```
 
 ## 📡 Пример: CLI (терминал)
 
