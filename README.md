@@ -47,7 +47,7 @@ python3 geogramint.py --help # для CLI режима
 
 <p align="center"> <img src="https://github.com/Alb-310/Geogramint/blob/master/.github/privacy_settings.jpg" width="300"/>
 
-2. Запуск **Geogramint**
+2. Запуск **Geogramint_custom**
 
 ![image](https://user-images.githubusercontent.com/52386954/210659094-506e3018-6784-4602-bf4e-e446534f6f15.png)
 
