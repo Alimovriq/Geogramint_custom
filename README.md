@@ -59,7 +59,7 @@ pip3 install -r requirements.txt
 python3 geogramint.py --help # для CLI режима
 ```
 
-### Docker (Опицонально / тест)
+### Docker (Опционально / тест)
 
 + Запуск контейнеров: app и db
 
