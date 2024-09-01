@@ -9,28 +9,17 @@
 
 ## **Описание**
 
-Geogramint_custom - приложение для поиска пользователей и групп, используя API телеграм с подключенной БД MongoDB, но без графического интерфейса
-Оригинальное приложение доступно по ссылке: [Geogramint](https://github.com/Alb-310/Geogramint/)<br>
+Geogramint_custom - приложение для поиска пользователей и групп, используя API телеграм с подключенной БД MongoDB, но без графического интерфейса.
+
+### Оригинальное приложение доступно по ссылке: [Geogramint](https://github.com/Alb-310/Geogramint/)<br>
 
 ## 🛠️ Установка
 
-**Requirements:** [Python 3.9, 3.10 or 3.11](https://www.python.org/downloads/release/python-3112/)<br>
+**Требования:** [Python 3.9, 3.10 or 3.11](https://www.python.org/downloads/release/python-3112/)<br>
 
-### On Windows [![Windows](https://img.shields.io/badge/Windows-03b1fc?style=for-the-badge&logo=windows)](https://svgshare.com/i/ZhY.svg)
+### Windows [![Windows](https://img.shields.io/badge/Windows-03b1fc?style=for-the-badge&logo=windows)](https://svgshare.com/i/ZhY.svg)
 
-+ #### With Github
-
-```bash
-git clone https://github.com/Alimovriq/Geogramint_custom.git
-cd Geogramint_custom/
-pip3 install -r requirements.txt
-
-python3 geogramint.py --help # для CLI режима
-```
-
-### On Mac OS  ![macOS](https://img.shields.io/badge/Mac_OS-abbfc7?style=for-the-badge&logo=apple) and Linux ![Linux](https://img.shields.io/badge/Linux-ffffff?style=for-the-badge&logo=linux)
-
-+ #### With Github
++ #### Github
 
 ```bash
 git clone https://github.com/Alimovriq/Geogramint_custom.git
@@ -40,7 +29,19 @@ pip3 install -r requirements.txt
 python3 geogramint.py --help # для CLI режима
 ```
 
-## 📡 Example: CLI
+### Mac OS  ![macOS](https://img.shields.io/badge/Mac_OS-abbfc7?style=for-the-badge&logo=apple) и Linux ![Linux](https://img.shields.io/badge/Linux-ffffff?style=for-the-badge&logo=linux)
+
++ #### Github
+
+```bash
+git clone https://github.com/Alimovriq/Geogramint_custom.git
+cd Geogramint_custom/
+pip3 install -r requirements.txt
+
+python3 geogramint.py --help # для CLI режима
+```
+
+## 📡 Пример: CLI (терминал)
 
 1. Создать API key для Вашего Telegram аккаунта [здесь](https://my.telegram.org). Необходимо установить изображение пользователя `Privacy and Security` настройка, разрешить другим пользователям видеть изображение Вашего профиля.
 
@@ -50,7 +51,7 @@ python3 geogramint.py --help # для CLI режима
 
 ![image](https://user-images.githubusercontent.com/52386954/210659094-506e3018-6784-4602-bf4e-e446534f6f15.png)
 
-3. Комманда для установки базовых значений `set-config` укажите параметры (api_id, api_hash and phone number)
+3. Комманда для установки базовых значений `set-config`, укажите параметры (api_id, api_hash and phone number)
 
 ![image](https://user-images.githubusercontent.com/52386954/210659472-dbb1804e-dd8a-468e-b0a1-bfcd77652113.png)
 
@@ -74,6 +75,6 @@ python3 geogramint.py --help # для CLI режима
 
 6. `reset-scan` очистит `cache_telegram` и все объекты базы данных.
   
-## 📝 License
+## 📝 Лицензия
 
 [MIT license](https://opensource.org/license/mit)
