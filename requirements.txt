@@ -9,3 +9,6 @@ rich==13.5.2
 selenium==4.11.2
 webdriver-manager==4.0.0
 plyer==2.1.0
+pymongo==4.8.0
+python-dotenv==1.0.1
+isort=5.13.2

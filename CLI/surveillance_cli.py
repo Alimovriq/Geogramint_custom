@@ -5,6 +5,7 @@ import requests
 EXPERIMENTAL FEATURE
 """
 
+
 def process_users(json_filename, output_filename):
     with open(json_filename, "r", encoding="utf-8") as json_file:
         data = json.load(json_file)
@@ -60,5 +61,3 @@ def send_webhook_notification(webhook_url, message, files):
             print("Webhook notification sent successfully.")
         else:
             print("Failed to send webhook notification.")
-
-

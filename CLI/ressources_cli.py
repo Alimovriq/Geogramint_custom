@@ -1,24 +1,24 @@
 import codecs
 import json
-import time
 import os
+import time
 import folium
 
 from io import BytesIO
 from rich.progress import Progress
 from selenium import webdriver
-from xhtml2pdf import pisa, default
-from xhtml2pdf.default import DEFAULT_CSS
-from xhtml2pdf.files import pisaFileObject
-from utils.osintracker_export import generate_empty_dexie_json, fill_dexie_json
-from utils import User
-from utils import Group
-from webdriver_manager.chrome import ChromeDriverManager
-from webdriver_manager.microsoft import EdgeChromiumDriverManager
-from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.edge.service import Service as EdgeService
 from selenium.webdriver.firefox.service import Service as FirefoxService
+from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.firefox import GeckoDriverManager
+from webdriver_manager.microsoft import EdgeChromiumDriverManager
+from xhtml2pdf import default, pisa
+from xhtml2pdf.default import DEFAULT_CSS
+from xhtml2pdf.files import pisaFileObject
+
+from utils import Group, User
+from utils.osintracker_export import fill_dexie_json, generate_empty_dexie_json
 
 global_template = '''
 <meta charset="UTF-8">
