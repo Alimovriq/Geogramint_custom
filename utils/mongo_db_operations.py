@@ -34,7 +34,7 @@ class Database_operations:
     group_collection = db[os.getenv('DB_GROUPS_COLLECTION')]
 
     def insert_collection(
-        collection: Collection,
+        self, collection: Collection,
             data: list[dict],
             _datetime: str) -> InsertOneResult:
         """
