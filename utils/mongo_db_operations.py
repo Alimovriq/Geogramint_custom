@@ -1,6 +1,7 @@
 import os
 
 from pprint import pprint
+from typing import Union
 from dotenv import load_dotenv
 from pymongo import MongoClient
 from pymongo.collection import Collection
@@ -36,7 +37,7 @@ class Database_operations:
     def insert_collection(
         self, collection: Collection,
             data: list[dict],
-            _datetime: str) -> InsertOneResult:
+            _datetime: str) -> Union[InsertOneResult, InsertManyResult]:
         """
         Принимает на вход коллекцию, дату и сохраняет данные в MongoDB.
         """
