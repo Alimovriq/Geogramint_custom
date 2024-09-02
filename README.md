@@ -61,6 +61,8 @@ python3 geogramint.py --help # для CLI режима
 
 ### Docker (Опционально / тест)
 
+[Установить Docker Desktop](https://www.docker.com/products/docker-desktop/)
+
 + Запуск контейнеров: app и db
 
 ```bash
