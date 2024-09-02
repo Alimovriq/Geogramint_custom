@@ -99,6 +99,7 @@ docker-compose down
 <p align="center"> <img src="https://user-images.githubusercontent.com/52386954/210661742-7e7a6242-5915-4b0e-a52d-38d4dd779eff.png" width="500"/>
 
 Примечание: при использовании команды `start-scan` происходит автоматическое сохранение результатов в БД.
+
 5. Вывод результатов:
 
 + зеленый в радиусе 500м
